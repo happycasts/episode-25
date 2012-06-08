@@ -1,0 +1,18 @@
+1. show people the problem, then enter ctags
+1. ctags is not a vim plugin, so :h usr_29 
+
+1. cd hello/
+    1. ctags main.c
+        1. common trap: tags fails to generated, due to filetype not recognized see `man ctags` "source file"
+    1. ctags *
+    1. show ptag & pclose
+    1. show Ctrl-], tags, tag, Ctrl-T
+    1. ctags help with writing code: show `ptag markdown`
+        1. when you have `tags` file, i_Ctrl-n will bring you all the tags
+
+1. cd ee
+    1. ctags -R 
+    1. ctags -R --exclude=*.js ~/.rvm/gems/ruby-1.9.2-p290/gems/
+    1. man ctags
+
+1. taglist intro 

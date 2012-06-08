@@ -1,23 +1,5 @@
 
-http://www.moolenaar.net/habits.html
-
-taglist plugin is not so useful
-
-# usr_29.txt
-
-    ptag markdown
-    pclose
-
-Ctrl-] or Ctrl-W-] can do sth similiar but not so nicely
-
 What is a tag?  It is a location where an identifier is defined. 
-
-`psearch popen` can get the definition of popen in stdio.h, even tough popen is not listed in `tags` file
-this can be super useful, if I can use sth like `psearch render`?
-
-    ctags -R --exclude=.git --exclude=log * ~/.rvm/gems/ruby-head/*
-    ctags --extra=+f --exclude=.git --exclude=log -R * `rvm gemdir`/gems/*
-
 
 #tagsrch.txt 
 
@@ -27,4 +9,3 @@ this can be super useful, if I can use sth like `psearch render`?
     exuberant ctags         This a very good one.  It works for C, C++, Java,
                             Fortran, Eiffel and others.  It can generate tags for
                             many items.  See http://ctags.sourceforge.net.
-
